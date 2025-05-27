@@ -13,5 +13,5 @@ body {
     font-family: var(--font-family);
     color: var(--text-color-primary);
     background-color: var(--bg);
-    /* height: 100vh; */
+    height: 100vh;
 }
