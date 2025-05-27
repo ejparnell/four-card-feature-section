@@ -1,0 +1,12 @@
+:root {
+    --grey-500: #4d4f62;
+    --grey-400: #6a7178;
+    --white: #ffffff;
+    --red: #ea5454;
+    --blue: #549ef2;
+    --cyan: #44d3d2;
+    --orange: #fcae4a;
+    --bg: #fafafa;
+
+    --border-radius: 8px;
+}

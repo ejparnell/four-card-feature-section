@@ -1,0 +1,31 @@
+:root {
+    /* Font Families */
+    --font-family: 'Poppins', sans-serif;
+
+    /* Font Sizes */
+    --text-preset-1-size: 2.25rem; /* 36px */
+    --text-preset-2-size: 2.25rem; /* 36px */
+    --text-preset-3-size: 1.25rem; /* 20px */
+    --text-preset-4-size: 0.9375rem; /* 15px */
+    --text-preset-5-size: 0.8125rem; /* 13px */
+
+    /* Mobile Font Sizes */
+    --text-preset-sm-1-size: 1.5rem; /* 24px */
+    --text-preset-mobile-2: 1.5rem; /* 24px */
+    --text-preset-mobile-4: 0.9375rem; /* 15px */
+
+    /* Line Heights */
+    --text-preset-sm-line-height: 135%;
+    --text-preset-md-line-height: 140%;
+    --text-preset-lg-line-height: 160%;
+
+    /* Font Weights */
+    --semi-bold: 500;
+    --extra-light: 100;
+    --light: 300;
+    --normal: 400;
+
+    /* Text Colors */
+    --text-color-primary: var(--grey-500);
+    --text-color-secondary: var(--grey-400);
+}

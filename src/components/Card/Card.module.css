@@ -1,0 +1,60 @@
+.card {
+    padding: 30px;
+    width: 314px;
+    height: 250px;
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 10px 18px 0px rgba(0, 0, 0, 0.34);
+    -webkit-box-shadow: 1px 10px 18px 0px rgba(0, 0, 0, 0.34);
+    -moz-box-shadow: 1px 10px 18px 0px rgba(0, 0, 0, 0.34);
+}
+
+.cardAccent {
+    width: 100%;
+    height: 5px;
+    border-radius: 8px 8px 0 0;
+    position: relative;
+    top: 5px;
+}
+
+.cardHeader {
+    font-size: var(--text-preset-3-size);
+    line-height: var(--text-preset-sm-line-height);
+    font-weight: var(--semi-bold);
+    margin-bottom: 10px;
+}
+
+.cardContent {
+    font-size: var(--text-preset-5-size);
+    line-height: var(--text-preset-lg-line-height);
+    font-weight: var(--light);
+    color: var(--font-color-secondary);
+}
+
+.cardImage {
+    align-self: flex-end;
+    margin-top: 40px;
+}
+
+.blue {
+    background: var(--blue);
+}
+
+.orange {
+    background: var(--orange);
+}
+
+.red {
+    background: var(--red);
+}
+
+.cyan {
+    background: var(--cyan);
+}
+
+@media screen and (min-width: 1240px) {
+    .card {
+        width: 350px;
+    }
+}

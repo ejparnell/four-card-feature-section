@@ -1,0 +1,16 @@
+@import './variables/typography.module.css';
+@import './variables/colors.module.css';
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--text-color-primary);
+    background-color: var(--bg);
+}

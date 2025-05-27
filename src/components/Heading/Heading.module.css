@@ -1,0 +1,36 @@
+.header {
+    min-width: 316px;
+    max-width: 540px;
+}
+
+.heading {
+    text-align: center;
+    font-size: var(--text-preset-sm-1-size);
+    line-height: var(--text-preset-md-line-height);
+    letter-spacing: 0.25px;
+    font-weight: var(--semi-bold);
+    margin-bottom: 20px;
+}
+
+.headingAccent {
+    font-weight: var(--extra-light);
+}
+
+.subHeading {
+    text-align: center;
+    font-size: var(--text-preset-mobile-4);
+    line-height: var(--text-preset-md-line-height);
+    font-weight: var(--light);
+}
+
+@media screen and (min-width: 768px) {
+    .heading {
+        font-size: var(--text-preset-1-size);
+        line-height: var(--text-preset-md-line-height);
+    }
+
+    .subHeading {
+        font-size: var(--text-preset-4-size);
+        line-height: var(--text-preset-md-line-height);
+    }
+}

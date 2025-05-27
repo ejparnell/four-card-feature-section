@@ -1,0 +1,66 @@
+.cardList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+@media screen and (min-width: 768px) {
+    .cardList {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            'first first'
+            'second third'
+            'fourth fourth';
+        gap: 30px;
+        justify-items: center;
+    }
+
+    .cardList > div:nth-child(1) {
+        grid-area: first;
+    }
+
+    .cardList > div:nth-child(2) {
+        grid-area: second;
+    }
+
+    .cardList > div:nth-child(3) {
+        grid-area: third;
+    }
+
+    .cardList > div:nth-child(4) {
+        grid-area: fourth;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .cardList {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            'first second fourth'
+            '. third .';
+    }
+
+    .cardList > div:nth-child(1) {
+        grid-area: first;
+        position: relative;
+        top: 175px;
+    }
+
+    .cardList > div:nth-child(2) {
+        grid-area: second;
+    }
+
+    .cardList > div:nth-child(3) {
+        grid-area: third;
+    }
+
+    .cardList > div:nth-child(4) {
+        grid-area: fourth;
+        position: relative;
+        top: 175px;
+    }
+}
